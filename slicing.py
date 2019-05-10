@@ -5,8 +5,6 @@ def main():
 	"""
 	slicing: L[start : stop : increment]
 	"""
-
-
 	L = [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15]
 	S = "0123456789abscdef"
 	"""
@@ -15,16 +13,16 @@ def main():
 
 	print(L[-3]) #first element from the end of the list
 	print(S[-3])
-	
+
 	print(L[:])
 	print(S[:])
-	
+
 	print(L[0:])
 	print(S[0:])
-	
+
 	print(L[2:])
 	print(S[2:])
-	
+
 	print(L[:3])
 	print(S[:3])
 
@@ -32,15 +30,14 @@ def main():
 	print(S[:-1])
 
 	print(L[4:9])
-	print(S[4:9])	
 	print(S[4:9])
 
 	print(L[::2])
 	print(S[::2])
-	
+
 	print(L[1:9:3])
 	print(S[1:9:3])
-	
+
 
 	L2 = [1,2,3]
 	S2 = "MCS"
@@ -55,21 +52,8 @@ def main():
 	L5 = ['a', 'X', 3.1, 7,8,9, [1,2,3], 'hello']
 	L6 = [x**2 for x in L5 if type(x) == int]
 	L7 = [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15]
-	L8 = [k for k in L7 if k >5]	
+	L8 = [k for k in L7 if k >5]
 
 	print(L8)
 
 main()
-
-
-
-
-
-
-
-
-
-
-
-
-

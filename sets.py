@@ -36,7 +36,7 @@ def main():
 	for k in range(len(A)): # this will generate error, since sets do not have indexing
 		print(A[K])
 	"""
-	
+
 
 
 
