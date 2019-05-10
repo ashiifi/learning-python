@@ -33,6 +33,7 @@ def main():
 
 	print(L[4:9])
 	print(S[4:9])	
+	print(S[4:9])
 
 	print(L[::2])
 	print(S[::2])

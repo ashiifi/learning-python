@@ -4,12 +4,9 @@ recursion has 2 components.
 	set of procedures reducing all other conditions
 	ex: Fibonacci sequence -- (function that is calling itself)
 	f(n) = f(n-1) + f(n-2)...
-
 """
 def F(n):
-    """
-    Computes the nth value in the Fibonacci sequence.
-    """
+    #Computes the nth value in the Fibonacci sequence.
     if n == 0 or n == 1:
        return 1
     else:
