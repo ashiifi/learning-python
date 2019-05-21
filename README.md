@@ -1,6 +1,6 @@
 # learning-python
-This is really just how I learned python.
-It has most of my notes, really just getting started in python and sort of understanding the syntax
+This is mostly how I learned python.
+It has most of my notes, anything I did in python in the begginning and sort of understanding the syntax
 
 Getting  started with Python is easy. First, Make sure you have python installed. To install python, visit: https://www.python.org/downloads/ This is easy on mac, but windows may require more work. Youtube installing python on windows and you should be up and running in no time.
 
