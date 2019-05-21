@@ -1,8 +1,8 @@
-
 """
 Dictionary comprehension:
+Key Value pairs
 """
-from operator import itemgetter
+from operator import itemgetter #importing package operator
 
 def book_word_frequency(s):
     with open(s, r, errors='ignore') as f:
@@ -18,7 +18,7 @@ def book_word_frequency(s):
     text = text.lower() #convert all words to lowercase
     words = text.split(" ") #split an empty space turns the tex to a list of words
 
-    D = {}
+    D = {} #empty dictionary
     for word in words:
         if word not in D:
             D.update({word: 1}) #putting the word into the dictionary with a value 1
@@ -28,20 +28,19 @@ def book_word_frequency(s):
     for e in E:
         print(e)
 
-
     print(len(E))
+
 def main():
     """
     D = {} #empty dictionary
     D = {'January': 1, 'February': 2, 'March': 3, 'April': 4} #first element is key, key-value pairs January = key, 1 = value
     #print(len(D)) #returns the number of key-value pairs in D
-    D['June'] = 6 # adding key-value pair to a dictionary
-   g # another way of adding key-value pair to a dictionary
+    D['June'] = 6 # adding key-value pair to a dictionary g # another way of adding key-value pair to a dictionary
     D[key] gives you the value
     K = D.keys() #returns all keys inside dictionary or use list(D.keys()) to convert into list
     V = D.values() #returns all values inside dictionary
-    #for k in D: # another way to call keys and values 
-    #    print(k, D[k])
+    #for k in D: # another way to call keys and values
+    #print(k, D[k])
     del D['July'] #remove key-value from dictionary
     """
     book_word_frequency('thehoundofthebaskerviles.txt')

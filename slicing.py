@@ -1,5 +1,6 @@
-
-
+"""
+Slicing of lists and strings
+"""
 
 def main():
 	"""
@@ -8,22 +9,22 @@ def main():
 	L = [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15]
 	S = "0123456789abscdef"
 	"""
-	print(L[0])
+	print(L[0]) #first element of L
 	print(S[0])
 
-	print(L[-3]) #first element from the end of the list
+	print(L[-3]) #third to last element
 	print(S[-3])
 
-	print(L[:])
+	print(L[:]) #prints all elements since there is no start or stop
 	print(S[:])
 
-	print(L[0:])
+	print(L[0:]) #prints from index 0 to the end
 	print(S[0:])
 
-	print(L[2:])
+	print(L[2:]) #prints from index 2 to the end
 	print(S[2:])
 
-	print(L[:3])
+	print(L[:3]) #prints from the beginning to index 3
 	print(S[:3])
 
 	print(L[:-1])

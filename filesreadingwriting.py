@@ -1,3 +1,6 @@
+"""
+Reading and writing to files in python
+"""
 
 def reading_a_file(s):
 	I = []
@@ -13,7 +16,6 @@ def reading_a_file(s):
 			I.append([name, user_name, email])
 		return I
 
-
 def writing_info_to_file(s, I):
 	cnt = 1
 	with open(s,"w") as f:
@@ -26,21 +28,12 @@ def writing_info_to_file(s, I):
 			#f.write(str(cnt) + ". "+str(name)+", "+str(office)+", "+str(user_name)+", "+str(email)+"\n")
 			f.write(str(cnt) + ". "+str(name)+", "+str(email)+"\n")
 			cnt = cnt + 1
-#def append_file(s):
-#	with open(s,"r") as f:
+
+def append_file(s):
+	with open(s,"r") as f:
 
 def main():
-    I = reading_a_file("mathdepartment.txt") 
+    I = reading_a_file("mathdepartment.txt")
     writing_info_to_file("listing.txt", I)
+
 main()
-
-
-
-
-
-
-
-
-
-
-
