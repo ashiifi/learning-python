@@ -5,7 +5,6 @@ Intro to object oriented programming
 #methods, instances, objects
 """
 
-
 class Circle1(object):
 	x0 = 1
 	y0 = 2
