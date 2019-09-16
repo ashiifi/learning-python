@@ -1,7 +1,7 @@
 """
 Intro to object oriented programming
 
-#basic class with just attributes
+#basic classes with  attributes
 #methods, instances, objects
 """
 
@@ -39,7 +39,7 @@ def main():
 	#print(C2.area())
 	#print(C2.implicit_equation())
 
-	#can edit the the attributes for the classes
+	#can edit the attributes of the classes
 
 	C3 = Circle2() #C3 is an instance of Circle2(), default class still remains intact
 	C3.x0 = 3 #default class still remains intact
