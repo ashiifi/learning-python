@@ -39,7 +39,6 @@ def main():
 	print(L[1:9:3])
 	print(S[1:9:3])
 
-
 	L2 = [1,2,3]
 	S2 = "MCS"
 	#print(L2+L2,S2+S2)
@@ -54,7 +53,6 @@ def main():
 	L6 = [x**2 for x in L5 if type(x) == int]
 	L7 = [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15]
 	L8 = [k for k in L7 if k >5]
-
 	print(L8)
 
 main()

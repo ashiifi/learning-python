@@ -31,9 +31,9 @@ def WritePreparedDataToFile(s, PreparedData):
 			change = PreparedData[i][2]
 			f.write("%s, %f, %f \n" % (date, high, change))
 
-
 def main():
 	Data = ExtractDataOfInterest("NDAQ-Daily-3months.csv")
 	PreparedData = PreparedData(Data)
 	WritePreparedDataToFile("processed_data.csv", PreparedData)
+	
 main()

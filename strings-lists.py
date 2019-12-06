@@ -22,7 +22,6 @@ def character_frequency(s):
 	for element in Counts: #iterates by each element in the list Counts
 		print(element) #prints each element
 
-
 def main():
 	s = "something" # doesnt matter if you use '' or ""
 	#strings:
@@ -63,4 +62,5 @@ def main():
 	character_frequency(s3)
 	print(s[len(s)-1])
 	"""
+
 main()
