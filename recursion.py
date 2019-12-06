@@ -5,6 +5,7 @@ recursion has 2 components.
 	ex: Fibonacci sequence -- (function that is calling itself)
 	f(n) = f(n-1) + f(n-2)...
 """
+
 def F(n):
     #Computes the nth value in the Fibonacci sequence.
     if n == 0 or n == 1:
@@ -28,9 +29,9 @@ def P(word):
 	else:
 		return P(word[1:len(word)-1])
 
-
 def main():
 	#print(F(5))
 	#print(fact(10))
 	print(P(""))
+
 main()

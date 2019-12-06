@@ -1,7 +1,7 @@
 """
 Intro to object oriented programming
 
-#basic classes with  attributes
+#basic classes with attributes
 #methods, instances, objects
 """
 

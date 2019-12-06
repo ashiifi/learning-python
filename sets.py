@@ -25,7 +25,7 @@ def main():
 	#print(C)
 	#D = A.symmetric_difference(B) # elements that are in one and not in the other, basically those that are unique
 	#print(D)
-	A = {-5,1,2,3,4,5,6,7,8,20}
+	#A = {-5,1,2,3,4,5,6,7,8,20}
 	#print(len(A))
 	#print(max(A)) # only works if elements are the same, ex: numbers
 	#print(sum(A))

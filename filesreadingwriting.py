@@ -31,6 +31,8 @@ def writing_info_to_file(s, I):
 
 def append_file(s):
 	with open(s,"r") as f:
+	
+	pass
 
 def main():
     I = reading_a_file("mathdepartment.txt")
