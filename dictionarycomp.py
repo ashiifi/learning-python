@@ -5,7 +5,7 @@ Key Value pairs
 from operator import itemgetter #importing package operator
 
 def book_word_frequency(s):
-    with open(s, r, errors='ignore') as f:
+    with open(s, 'r', errors='ignore') as f:
         text = f.read() #read in the entire book at once and assign it to variable text
         text = text.replace("\n"," ")
         text = text.replace(".","")
@@ -43,6 +43,6 @@ def main():
     #print(k, D[k])
     del D['July'] #remove key-value from dictionary
     """
-    book_word_frequency('thehoundofthebaskerviles.txt')
+    book_word_frequency('thehoundofthebaskervilles.txt')
     
 main()
